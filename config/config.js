@@ -70,7 +70,7 @@ let config = {
      		position: "bottom_bar", // This can be any of the regions.
       		config: {
         		// See 'Configuration options' for more information.
-        	text: "uhhhh!",
+        	text: "uhhhh what the helly??",
       		},
     	},
 		/*{
@@ -83,8 +83,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 39.676467,
+				lon: -86.015231
 			}
 		},
 		{
@@ -94,24 +94,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "forecast",
-				lat: 40.776676,
-				lon: -73.971321
-			}
-		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true
+				lat: 39.676467,
+				lon: -86.015231
 			}
 		},
 	]
