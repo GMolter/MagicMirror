@@ -66,9 +66,17 @@ let config = {
 			}
 		},
 		{
+      		module: "helloworld",
+     		position: "bottom_bar", // This can be any of the regions.
+      		config: {
+        		// See 'Configuration options' for more information.
+        	text: "uhhhh!",
+      		},
+    	},
+		/*{
 			module: "compliments",
 			position: "lower_third"
-		},
+		},*/
 		{
 			module: "weather",
 			position: "top_right",
